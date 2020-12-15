@@ -14,6 +14,6 @@
      <em>Original Image</em>
  </p>
   <p align="center">
-    <img  src = "data/homomorpicFilterImages/image_homomorphic.jpg" width=300> <br>
+    <img  src = "data/homomorpicFilterImages/image_homomorphic2.jpg" width=300> <br>
      <em>Filtered Image</em>
  </p>
