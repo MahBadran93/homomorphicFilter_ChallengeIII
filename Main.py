@@ -64,13 +64,17 @@ def homormophic_Algorithm(inputImage, filterParam1 = 1, filterParam2 = 1):
 
 
 #...............................Test.................................................
-#image path 
-path = './data/originalImages/test2_original.jpg'
+
+# unfiltered image path 1
+#path1 = './data/originalImages/test2_original.jpg'
+# unfiltered image path 1
+path2 = './data/originalImages/original.jpg'
 
 # read image
-img = cv2.imread(path)
+img = cv2.imread(path2)
 # Apply Homomorphic algorithm 
 imgFiltered = homormophic_Algorithm(img[:,:,0])
+
 cv2.imwrite('./data/homomorpicFilterImages/image_homomorphic2.jpg', imgFiltered)
 
 plt.imshow(img)
