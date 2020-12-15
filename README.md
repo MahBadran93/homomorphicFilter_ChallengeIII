@@ -8,11 +8,12 @@
   - If you want to test a new image, you can go to the the end of the code in the **Main.py** file and change the **path1** variable to the new image path.
   
 ## Results: 
-<figure class="image">
-  <img src='data/originalImages/original.jpg'>
-  <figcaption>Original Image</figcaption>
-</figure>
-<figure class="image">
-  <img src='data/homomorpicFilterImages/image_homomorphic.jpg'>
-  <figcaption>Filtered Image</figcaption>
-</figure>
+
+ <p align="center">
+    <img  src = "data/originalImages/original.jpg" width=300> <br>
+     <em>Original Image</em>
+ </p>
+  <p align="center">
+    <img  src = "data/homomorpicFilterImages/image_homomorphic.jpg" width=300> <br>
+     <em>Filtered Image</em>
+ </p>
